@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: solid yellow 1px; */
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Contact {
+  margin: auto;
+  width: 100%;
+  min-height: 10vh;
+  text-align: left;
+}
+.ContactForm {
+  width: 300px;
+  height: 200px;
+  border: 1px solid yellow;
+  background-color:white ;
+  max-width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.ContactForm button{
+  width:200px;
+  height: 50px;
+}
+
+.ContactChild {
+  width: 100%;
+  display: flex;
+  text-align: start;
+  justify-content: flex-start;
+}
+
+.Contacts {
+  margin: auto;
+  height: 100vh;
+  overflow: scroll;
+  border: blueviolet 1px solid;
+  width: 100%;
+}
+.addContactParent{
+  width: 100vw;
+  height: 100vh;
+
+}
+.AddContact {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.HomeView {
+  max-width: 960px;
+  margin: auto;
+}
+
+.Chat {
+  height: 100vh;
+}
+
+.TopProfile {
+  margin: auto;
+  display: block;
+}
+.TopChild {
+  width: 100%;
+  justify-content: start;
+}
+.BottomInput {
+  position: absolute;
+  bottom: 5%;
+  right: 0;
+  height: 5vh;
+}
+
+.textInput {
+  width: 70vw;
+
+  text-size-adjust: 5vh;
+  /* border: black solid 2px; */
+}
+.sendButton {
+  height: 10vh;
+  width: 25vw;
+}
+
+.SignUp {
+  height: 70vh;
+  diaplay: flex;
+  justify-cojntent: space-between;
+  flex-direction: column;
+  margin: auto;
+}
+
+.button {
+  height: 7vh;
+}
+
+.Text {
+  color: white;
+  display: "block";
+}
